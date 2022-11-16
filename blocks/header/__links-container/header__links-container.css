@@ -1,0 +1,12 @@
+.header__links-container {
+  margin-bottom: calc(52px - 46px);
+  padding: 0;
+  display: flex;
+  gap: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__links-container {
+    margin-bottom: calc(42px - 30px);
+  }
+}
