@@ -2,11 +2,12 @@
   margin-bottom: calc(52px - 46px);
   padding: 0;
   display: flex;
+  list-style: none;
   gap: 18px;
 }
 
 @media screen and (max-width: 320px) {
   .header__links-container {
-    margin-bottom: calc(42px - 30px);
+    margin-bottom: calc(42px - 36px);
   }
 }
